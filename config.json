@@ -1,0 +1,30 @@
+{
+    "postgresql":{
+        "host":"localhost",
+        "user":"postgres",
+        "password":221299,
+        "database":"finalProjectDB",
+        "port":5432
+    },
+
+    "datawarehouse":{
+        "host":"localhost",
+        "user":"postgres",
+        "password":221299,
+        "database":"finalProjectDWH",
+        "port":5432
+    },
+
+    "hadoop":{
+        "ip":"http://localhost:9870",
+        "user":"FinalProject"
+    },
+
+    "datamart":{
+        "host":"localhost",
+        "user":"postgres",
+        "password":221299,
+        "database":"finalProjectDataMart",
+        "port":5432
+    }
+}
